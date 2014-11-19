@@ -1,7 +1,27 @@
-/u/WhiskyBot
+Whisky Bot
 ================
 
-dcwhisky's whiskybot
+Whisky Bot is a python based Reddit Rot that uses Reddits Python Reddit API Wrapper (PRAW)
+
+It is unobtrustive in its commenting as it only comments when called. 
+
+It serves two functions; 
+
+* Scanning comments for @whiskybot calls to add or remove users from the roundup database
+* Creating weekly posts for user reviews and whiskyporn submissions, and a separate post for scotchswap posts
+
+Commands
+================
+
+Valid calls are:
+
+* @whiskybot add
+* @whiskybot remove
+
+The first adds your username to the weekly roundup, the second removes you.  If the bot is called using @whiskybot but one of these calls is not provided the bot responds with a list of valid calls. 
+
+Files
+================
 
 This bot has two main python files.  
 
