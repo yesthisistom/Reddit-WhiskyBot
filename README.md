@@ -1,7 +1,7 @@
 Whisky Bot
 ================
 
-Whisky Bot is a python based Reddit Rot that uses Reddits Python Reddit API Wrapper (PRAW)
+Whisky Bot is a python based Reddit Bot that uses Reddits Python Reddit API Wrapper (PRAW)
 
 It is unobtrustive in its commenting as it only comments when called. 
 
@@ -29,4 +29,4 @@ The first scans all comments added to /r/dcwhisky for references to itself, and 
 
 The second performs weekly posts of two types; review and whiskyporn roundup, and /r/scotchswap posts, but successful swaps and ISO/FT threads. 
 
-As a note, to run any of these locally you must set up the botInfo.py to return your botname, it's password, the userAgent, the subreddit it works on, and a signature to add to your posts. 
+As a note, to run any of these locally you must set up the botInfo.py to return your botname, its password, the userAgent, the subreddit it works on, and a signature to add to your posts. 
