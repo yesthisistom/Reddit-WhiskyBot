@@ -1,18 +1,24 @@
 
-def botName():
-	return ""
+def getUserID():
+	return "USERNAME"
 	
-def botPwd():
-	return ""
+def getUserPWD():
+	return "PASSWORD"
 	
-def botUserAgent():
-	return ""
+def getUserAgent():
+	return "USERAGENT"
 	
-def subReddit():
-	return "dcwhisky"
 	
 def postSignature():
-	return """
-___
-^(Please address any comments or suggestions to /u/filez41)
+	return """ %%%POST SIGNATURE$$$
 """
+
+def getDeveloper():
+	return 'DEVELOPER USERNAME IF NEEDED'
+	
+def getClientSecret():
+	return "SECRET"
+
+def getClientID():
+	return "CLIENT ID"
+
